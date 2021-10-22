@@ -1,25 +1,79 @@
 /* you can change any of the default styles below */
 
 * {
-  margin: 0;
-  padding: 0;
-  font-size: 10px;
+  background-color: #F8F4E3;
+}
+
+header {
+  position: sticky;
+  top: 0;
 }
 
 nav {
-  height: 15px;
+  height: 30px;
+  background-color: #E22856;
+  padding: 10px;
+  border: 2px;
 }
 
 main {
-  background-color: #F8F4E3
-  height: 100vh;
+  background-color: #F8F4E3;
 }
 
-p {
-  color: 2A2B2A;
-  fontsize: 1.8rem;
+.box {
+  margin-left: 530px;
+  margin-right: 530px;
+  margin-top: 50px;
+}
+
+.desc {
+  float: right;
+  color: #2A2B2A;
+  font-size: 10px;
+  width: 200px;
+  height: 300px;
+  border: solid #E22856;
+  margin: 0;
 }
 
 img {
-  max-width: 400px;
+  width: 200px;
+  height: 300px;
+}
+
+.title{
+  font-size: 20px;
+  background-color: #E22856;
+  margin: 15px;
+}
+
+.subtitle{
+  font-size: 15px;
+  margin-left: 30px;
+  background-color: #E22856;
+
+}
+
+.subtitle:link{
+  color: #2A2B2A;
+}
+
+.subtitle:hover{
+  color: #929087;
+}
+
+.subtitle:visited{
+  color: #E3B7B6;
+}
+
+.title:link{
+  color: #2A2B2A;
+}
+
+.title:hover{
+  color: #929087;
+}
+
+.title:visited{
+  color: #E3B7B6;
 }
