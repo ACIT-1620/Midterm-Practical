@@ -33,12 +33,15 @@ main {
   width: 200px;
   height: 300px;
   border: solid #E22856;
-  margin: 0;
+  margin: 2px;
+  padding: 2px;
 }
 
 img {
   width: 200px;
   height: 300px;
+  margin: 2px;
+  padding: 2px;
 }
 
 .title{
